@@ -29,7 +29,7 @@
     <header class="header-bg font">
         <section class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-bg">
                 <div class="container">
                     
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,13 +38,16 @@
                                 <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Shop</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#bikes">Shop</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#feedback">Client Feedback</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item px-5">
                                 <a class="nav-link active" aria-current="page" href="#">
@@ -118,7 +121,7 @@
         <!-----------------------
              Featured Bikes 
         ------------------------->
-        <section class="container featured-section py-5">
+        <section id="bikes" class="container featured-section py-5">
             <h2 class="fw-bold d-block text-center">Featured Bikes 2021</h2>
             <h6 class="text-danger d-block text-center">Best Bike Collection</h6>
             <hr class="bg-danger m-auto">
@@ -133,7 +136,7 @@
              CLient Opinions 
         ----------------------->
 
-        <section class="container">
+        <section id="feedback" class="container">
             <div class="d-block text-center py-5">
                 <h2 class="client-heading-text fw-bold">Happy <span>Client Says</span></h2>
             </div>
@@ -210,7 +213,7 @@
         <!-------------------
              FAQ 
         ---------------------->
-        <section class="container">
+        <section id="faq" class="container">
 
             <div class="d-block text-center py-5">
                 <h2 class="client-heading-text fw-bold">Frequently Asked <span>Questions</span></h2>
@@ -430,8 +433,23 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-dark">
 
+        <!-- Contact-->
+        <section id="contact" style="height: 300px;"
+            class="container d-flex align-items-center justify-content-center rounded-3 my-3">
+            <div>
+                <h1 class="text-info">LET'S STAY IN TOUCH</h1>
+                <p class="text-white">Get updates on sales, specials and more</p>
+                <form action="">
+                    <input class="form-control" type="Your Email" value="">
+                    <br>
+                    <button class="btn btn-bg rounded-3 text-white" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <hr class="w-100 bg-white">
+        <h6 class="text-white fw-light d-block text-center "><small>© 2021 bike. All rights reserved | Mahfuz Sunny</small></h6>
     </footer>
 
     <!-- Javascript Link -->

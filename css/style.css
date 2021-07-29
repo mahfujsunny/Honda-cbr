@@ -2,6 +2,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-bg{
+    background-color: rgba(133, 105, 105, 0.219);
+    padding-bottom: 0%;
+}
+
 .header-bg {
     background-color: #264653;
 }
@@ -77,5 +82,3 @@ hr {
 .carousel-faded-bg {
     background-color: rgba(97, 95, 95, 0.329);
 }
-
-
