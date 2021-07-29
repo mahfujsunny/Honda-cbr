@@ -2,13 +2,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-bg{
+/************ 
+      Navber 
+*************/
+
+.nav-bg {
     background-color: rgba(133, 105, 105, 0.219);
     padding-bottom: 0%;
 }
 
+/************** 
+      Header 
+***************/
+
 .header-bg {
     background-color: #264653;
+}
+
+.header-paragraph {
+    color: #E0E0E0;
 }
 
 .btn-bg {
@@ -20,6 +32,10 @@
     background-color: #E76F51;
     color: white;
 }
+
+/***********************
+      Featured Bikes 
+************************/
 
 .featured-section h2 {
     font-size: 48px;
