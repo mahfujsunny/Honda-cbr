@@ -73,3 +73,9 @@ hr {
 .faq-img {
     width: 310px;
 }
+
+.carousel-faded-bg {
+    background-color: rgba(97, 95, 95, 0.329);
+}
+
+
