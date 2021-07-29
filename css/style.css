@@ -1,0 +1,75 @@
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-bg {
+    background-color: #264653;
+}
+
+.btn-bg {
+    background-color: #E76F51;
+}
+
+.header-img {
+    width: 310px;
+}
+
+.header-btn {
+    background-color: #E76F51;
+    color: white;
+}
+
+.featured-section h2 {
+    font-size: 48px;
+}
+
+.featured-section h6 {
+    font-size: 14px;
+}
+
+hr {
+    width: 50px;
+}
+
+.featured-section>div>div img {
+    width: 288px;
+}
+
+.featured-section>div>div:nth-child(1) {
+    filter: grayscale(100%);
+}
+
+.featured-section>div>div:nth-child(3) {
+    filter: grayscale(100%);
+}
+
+.client-heading-text {
+    font-size: 36px;
+    color: #0A0826;
+}
+
+.client-heading-text span {
+    color: #E77C40;
+}
+
+.client-img {
+    width: 149px;
+    margin: 40px;
+}
+
+.client-img-3 {
+    width: 200px;
+    margin: 40px;
+}
+
+.client-title-text {
+    font-size: 14px;
+}
+
+.fa-star {
+    color: #E77C40;
+}
+
+.faq-img {
+    width: 310px;
+}
