@@ -61,6 +61,10 @@ hr {
     filter: grayscale(100%);
 }
 
+/*************************
+     Client Feedback 
+ ************************/
+
 .client-heading-text {
     font-size: 36px;
     color: #0A0826;
@@ -84,9 +88,17 @@ hr {
     font-size: 14px;
 }
 
+/*********************
+     Fontawesome icon 
+ *********************/
+
 .fa-star {
     color: #E77C40;
 }
+
+/***************** 
+     FAQ 
+******************/
 
 .faq-img {
     width: 310px;
